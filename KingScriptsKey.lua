@@ -24,18 +24,31 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = true, -- Set this to true to use our key system
+   local Button = Tab:CreateButton({
+   Name = "Get Key",
+   Callback = function()
+   
+   end,
+})
+      
+      KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "BloxFruits Trade Scam Key",
       Subtitle = "Key System",
       Note = "After Pasting Key click enter in pc or enter button of phone", -- Use this to tell the user how to get a key
       FileName = "KingScripts Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hi"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"key_thisscriptissooverpowered"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
+local Button = Tab:CreateButton({
+   Name = "Get Key",
+   Callback = function()
+   
+   end,
+})
 
 
 local Button = Tab:CreateButton({
