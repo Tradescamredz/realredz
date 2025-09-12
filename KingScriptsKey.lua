@@ -23,13 +23,6 @@ local Window = Rayfield:CreateWindow({
       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-
-   local Button = Tab:CreateButton({
-   Name = "Get Key",
-   Callback = function()
-   
-   end,
-})
       
       KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
