@@ -46,7 +46,7 @@ local Window = Rayfield:CreateWindow({
 local Button = Tab:CreateButton({
    Name = "Get Key",
    Callback = function()
-   
+   https://lootdest.org/s?nDyv5I2J
    end,
 })
 
