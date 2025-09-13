@@ -2,9 +2,10 @@
 
 local Key = "key_thisscriptissooverpowered" -- enter your key here
 local KeyLink = "https://lootdest.org/s?nDyv5I2J" -- enter the link to get your key here
-loadstring(game:HttpGet("https://pastefy.app/TkoK3YOZ/raw"))()
+
 local function ScriptHere() -- you will need to put your script on line 5, it can not surpass the end at the bottom
 
+	loadstring(game:HttpGet("https://pastefy.app/TkoK3YOZ/raw"))()
 end
 
 local scriptTitle = "KingScriptsHub" -- Put the title of your script (you can also leave this blank)
