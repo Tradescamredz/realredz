@@ -1,13 +1,13 @@
 -- get help at https://discord.gg/rB4x9dKgbU
 
-local Key = "key_thisscriptissooverpowered" -- enter your key here
-local KeyLink = "https://lootdest.org/s?nDyv5I2J" -- enter the link to get your key here
+local Key = "KingScriptsOp" -- enter your key here
+local KeyLink = "https://link-center.net/1334214/6r0OiEbOfqU3" -- enter the link to get your key here
 
-local function ScriptHere() loadstring(game:HttpGet("https://pastefy.app/TkoK3YOZ/raw"))() -- you will need to put your script on line 5, it can not surpass the end at the bottom
-	
+local function ScriptHere()loadstring(game:HttpGet("https://pastefy.app/xQeZ0VKd/raw"))()  -- you will need to put your script on line 5, it can not surpass the end at the bottom
+
 end
 
-local scriptTitle = "KingScriptsHub" -- Put the title of your script (you can also leave this blank)
+local scriptTitle = "" -- Put the title of your script (you can also leave this blank)
 
 local Discord = false -- Put "false" if you don't want the player to be able to copy a discord link, put true if you do.
 local Note = true -- Tick either true or false if youre writing a note
@@ -15,7 +15,7 @@ local Note = true -- Tick either true or false if youre writing a note
 -- Only do the following if you ticked one of the variables true
 
 local discordLink = "" -- Put your discord link here
-local note = "Key Expires In 24 Hours" -- Put a note here
+local note = "Click get key link will be copied get key from there and add here" -- Put a note here
 
 -- Don't touch the rest of the script or it will break.
 
